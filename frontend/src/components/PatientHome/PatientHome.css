@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-page-main-container {
+    font-family: 'Arial', sans-serif;
+    background-color:#181a20;
+    color: #333;
+    height: 100vh;
+    padding: 10px;
+    width: 100vw;
+    
+  }
+  
+  .home-page-header {
+
+    color: white;
+    text-align: end;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .home-page-header>.patient-logout_btn{
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  
+ 
+  
+  .home-page-body-title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    
+  }
+  
+  .home-page-body-main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-page-body-main-container-left, 
+  .home-page-body-main-container-right {
+  
+    margin: 10px;
+    background-color:#2B3139;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .home-page-body-main-container-left{
+    width: 30%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-page-body-main-container-right{
+    width: 70%;
+  }
+
+  .patient-profile-card {
+      background:#181a20;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      text-align: center;
+      color: white;
+      height: 250px;
+      
+  }
+  
+  .patient-profile-card-photo {
+      background: #bdbdbd;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 16px;
+  }
+  
+  .patient-profile-card-photo img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  .patient-profile-card-name {
+      font-size: 20px;
+      color: #c6c6c6;
+      margin-bottom: 5px;
+  }
+  
+  .patient-profile-card-id,
+  .patient-profile-card-age {
+    color :#c6c6c6;
+      margin-bottom: 5px;
+  }
+  
+  .patient-profile-card-view-profile-btn {
+      border: none;
+      background-color: #009688;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  /* ---------------------------------- */
+  .home-page-body-patient-status,
+  .home-page-body-patient-information {
+    margin-bottom: 20px;
+    color :#c6c6c6;
+    background:#181a20;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: start;
+    color: white;
+    
+  }
+  
+  .home-page-body-patient-status-title,
+  .home-page-body-patient-information-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .home-page-body-main-container-right-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .home-page-body-main-container-right-header button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .vital-signs, .test-reports, .Prescriptions {
+    margin-bottom: 10px;
+  }
+  .vital-signs{
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+    height: 100px;
+
+  }
+
+  .test-reports{
+
+    height: 120px;
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+
+  }
+  .Prescriptions{
+    height: 170px;
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px
+
+  }
+  
+  .new-prescription-btn {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  

@@ -1,0 +1,165 @@
+/* PharmacyHome.css */
+
+
+.pharmacy-home-main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #858585;
+    width: 100vw;
+    padding: 30px;
+  }
+  
+  .pharmacy-home-left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #cacaca;
+    
+  }
+ 
+
+  .pharmacy-home-selected-items {
+    overflow-y: auto;
+    flex: 1;
+  }
+  
+  .pharmacy-home-selected-items table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pharmacy-home-selected-items th,
+  .pharmacy-home-selected-items td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pharmacy-home-selected-items th {
+    background-color: #970505;
+  }
+  
+  .pharmacy-home-selected-items button {
+    padding: 5px 10px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pharmacy-home-selected-items button:hover {
+    background-color: #e74c3c;
+  }
+  
+  .pharmacy-home-left-container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .pharmacy-home-items-count,
+  .pharmacy-home-total-count,
+  .pharmacy-home-discount {
+    flex: 1;
+  }
+  
+  .pharmacy-home-total-payable {
+    padding: 20px;
+  }
+  
+  .pharmacy-home-actions {
+    padding: 20px;
+  }
+  
+  .pharmacy-home-actions button {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+
+   
+  .pharmacy-home-right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+ 
+  }
+  
+  .pharmacy-home-right-container-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .pharmacy-home-right-container-body {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #380c0c;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .product-list li:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .product-list li input {
+    margin-left: 10px;
+  }
+  
+  .alert-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+
+  /* PharmacyHome.css */
+
+.pharmacy-home-right-container-footer {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 600px; /* Adjust width to fit your design */
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    z-index: 1; /* Ensure footer appears above other content */
+    color: #380c0c;
+    height: 200px; /* Adjust height to fit your design */
+    overflow-y: auto; /* Add vertical scroll overflow */
+  }
+  
+  .pharmacy-home-right-container-footer table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pharmacy-home-right-container-footer thead {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Optional: Set background color for better visibility */
+    z-index: 1; /* Ensure header appears above other content */
+  }
+  
+  .pharmacy-home-right-container-footer th,
+  .pharmacy-home-right-container-footer td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pharmacy-home-right-container-footer th {
+    background-color: #f2f2f2; /* Optional: Set background color for header */
+  }
+  

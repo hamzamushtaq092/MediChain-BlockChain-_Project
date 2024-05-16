@@ -1,0 +1,20 @@
+.medicine-container {
+    padding: 20px;
+    background-color: #f12727;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #bd1818;
+  }
+  
+  th {
+    background-color: #ce1d1d;
+  }
+  
