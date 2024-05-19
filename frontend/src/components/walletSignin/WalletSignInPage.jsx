@@ -3,18 +3,10 @@ import "./WalletSigninPage.css";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate} from "react-router-dom";
-import { useEffect } from "react";
-
-
 
 function WalletSignInPage({setLoginUser}) {
   
   const navigate= useNavigate();
-
-  
-
-
-
   const [user, setuser] = useState({
     email: "",
     password: "",
@@ -51,6 +43,7 @@ function WalletSignInPage({setLoginUser}) {
                 if (role === 'doctor') {
                     navigate("/doctor/home");
                 } else if (role === 'pharmacy') {
+                  
                     navigate("/pharmacy/home");
                 }
                 else if(role==='patient'){

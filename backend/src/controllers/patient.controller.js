@@ -81,8 +81,38 @@ const uploadReports = asyncHandler(async (req, res) => {
   
 })
 
+const getPatientDetails = async (req, res) => {
+  try {
+    // Extract email from the request body
+    const { email } = req.body;
+
+    // Check if email is provided
+    if (!email) {
+      throw new ApiError(400, "Bad Request: Email is required");
+    }
+
+    // Query the database to find the user by email
+    const user = await User.findOne({ email }).select("-password -refreshToken");
+    console.log(user)
+
+    // Check if user exists
+    if (!user) {
+      throw new ApiError(404, "User not found");
+    }
+
+    // Send success response with user data
+    return res.status(200).json(new ApiResponse(200, user, "User found successfully"));
+  } catch (error) {
+    // Handle errors
+    console.error(error);
+    return res.status(error.statusCode || 500).json({ error: error.message });
+  }
+};
 
 
 
-export { createPatient };
+
+
+
+export { createPatient ,getPatientDetails};
 

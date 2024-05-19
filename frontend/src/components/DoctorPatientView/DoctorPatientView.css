@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-page-main-container {
+    font-family: 'Arial', sans-serif;
+    background-color:#181a20;
+    color: #333;
+    height: 100vh;
+    padding: 10px;
+    width: 100vw;
+    
+  }
+  
+  .home-page-header {
+
+    color: white;
+    text-align: end;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+  }
+
+  .home-page-header>.new-patient-add-btn{
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+ 
+
+  }
+  
+ 
+  
+  .home-page-body-title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    
+  }
+  
+  .home-page-body-main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-page-body-main-container-left, 
+  .home-page-body-main-container-right {
+  
+    margin: 10px;
+    background-color:#2B3139;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .home-page-body-main-container-left{
+    width: 30%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-page-body-main-container-right{
+    width: 70%;
+  }
+
+  .patient-profile-card {
+      background:#181a20;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      text-align: center;
+      color: white;
+      height: 250px;
+      
+  }
+  
+  .patient-profile-card-photo {
+      background: #bdbdbd;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 16px;
+  }
+  
+  .patient-profile-card-photo img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  .patient-profile-card-name {
+      font-size: 20px;
+      color: #c6c6c6;
+      margin-bottom: 5px;
+  }
+  
+  .patient-profile-card-id,
+  .patient-profile-card-age {
+    color :#c6c6c6;
+      margin-bottom: 5px;
+  }
+  
+  .patient-profile-card-view-profile-btn {
+      border: none;
+      background-color: #009688;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  /* ---------------------------------- */
+  .home-page-body-patient-status,
+  .home-page-body-patient-information {
+    margin-bottom: 20px;
+    color :#c6c6c6;
+    background:#181a20;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: start;
+    color: white;
+    
+  }
+  
+  .home-page-body-patient-status-title,
+  .home-page-body-patient-information-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .home-page-body-main-container-right-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .home-page-body-main-container-right-header button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .vital-signs, .test-reports, .Prescriptions {
+    margin-bottom: 10px;
+  }
+  .vital-signs{
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+    height: 100px;
+
+  }
+
+  .test-reports{
+
+    height: 120px;
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px;
+
+  }
+  .Prescriptions{
+    height: 170px;
+    color :#c6c6c6;
+    background:#181a20;
+    padding: 10px;
+    border-radius: 8px
+
+  }
+  
+  .new-prescription-btn {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .form-group-short{
+    display: flex;
+   
+    
+    background-color: #9ba3ac;
+  }
+ .form-group-short-input{
+    width: 100%; 
+ }
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .input-text-short {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-checkbox {
+    width: auto;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .DoctorPatientView-FooterButton{
+    display : flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .doctorPatientView-CheckOut-btn{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+  }
+  
+  .doctorPatientView-CheckOut-btn:hover{
+    background-color: #d32f2f;
+  }
+
+
+
+
+  /* ========================
+ */
+
+ 
+.new-patient-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: black;
+}
+
+.title-heading{
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom:20px ;
+}
+.title-line{
+  width: 100%;
+  height: 1px;
+  background-color: #eeeef1;
+  margin-bottom: 20px;
+}
+.new-patient-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: white;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-column {
+  flex: 1;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.new-patient-submit-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-patient-submit-btn:hover {
+  background-color: #4cae4c;
+}
+
+
+
+.dob-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+
